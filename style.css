@@ -1,0 +1,121 @@
+/* colors and fonts */
+
+body {
+	background-color: #FDEFF4;
+    color: black;
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+}
+
+h1 {
+   color: black;
+   font-family: 'Fascinate Inline', cursive; 
+   font-weight: 900;
+   letter-spacing: 10px;
+   font-size: 32px;
+}
+
+h2 {
+   color: black;
+   font-family: 'Fascinate Inline', cursive; 
+   font-weight: 300;
+   letter-spacing: 10px;
+   font-size: 32px;
+}
+
+a {
+	text-decoration: none;
+	color: deeppink;
+}
+a:hover {
+	color: black;
+}
+
+/*div{
+   background-color: #FDEFF4;
+   width: 700px;
+   padding: 25px;
+   margin: 10px auto;
+   border: 3px solid black;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+   border-radius: 40px;
+   
+}*/
+
+#photo {
+   width: 200px;
+   border-radius: 75px;
+   border: 10px solid black;
+   box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom design with class */
+
+.container {
+   width: 700px;
+   margin: 40px auto;
+}    
+
+@media (max-width: 960px) {
+   .container {
+      width: 700px;
+   }
+}
+
+@media (max-width: 720px) {
+   .container {
+      width: 500px;
+   }
+}
+
+@media (max-width: 540px) {
+   .container {
+      width: 300px;
+   }
+}
+
+.card-design {
+   background-color: #FDEFF4;
+   padding: 25px;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+   border-radius: 40px;
+   margin: 20px auto;
+   text-align: center;
+}
+
+.btn-pink {
+   background-color: deeppink;
+   color: #FDEFF4;
+   padding: 15px 20px;
+   border-radius: 4px;
+}
+.btn-pink:hover {
+   background-color: #FDEFF4;
+   color: deeppink;
+}
+.list-inline {
+   list-style: none;
+   padding-left: 0px;
+}
+
+.list-inline li {
+   display: inline;
+   padding:  10px;
+}
+
+.list-inline i {
+   font-size: 50px;
+   color: deeppink;
+}
+
+.list-inline i:hover {
+   color: black;
+}
+
+#introduction p {
+   margin-bottom: 40px;
+
+}
+
+
+
